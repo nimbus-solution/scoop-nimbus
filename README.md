@@ -1,6 +1,10 @@
 # scoop-nimbus
 
-Scoop bucket for [Nimbus](https://testnimbus.dev) — local Apex test runner for Salesforce developers.
+Official Scoop bucket for **Nimbus** — run Salesforce Apex tests locally, without an org.
+
+No Docker. No sandbox. Results in seconds.
+
+---
 
 ## Install
 
@@ -14,3 +18,13 @@ scoop install nimbus
 ```powershell
 scoop update nimbus
 ```
+
+## Verify
+
+```powershell
+nimbus --version
+```
+
+---
+
+[Documentation](https://testnimbus.dev/docs) · [Website](https://testnimbus.dev)
