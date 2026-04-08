@@ -6,14 +6,14 @@
             "bin": [
                 "nimbus.exe"
             ],
-            "hash": "a8e65ca2dd4bdc729399f27317791d47d477fdc94e43b1028f429b41df1595c1"
+            "hash": "90317cb499ff07a99849e18c58b68d18eb30d9bc13110e79fb41d56608cbf4ce"
         },
         "arm64": {
             "url": "https://github.com/Oblitus/nimbus/releases/download/v0.1.0/nimbus_0.1.0_windows_arm64.zip",
             "bin": [
                 "nimbus.exe"
             ],
-            "hash": "22cf2a23aa168cf4d8ae0009c3574661359352c2ae43ed0ead52fd87a9a0687d"
+            "hash": "76dbdb2a15bf5982a92074d51e8c4abe64156edd85f02565eaca715e8d017004"
         }
     },
     "homepage": "https://testnimbus.dev",
