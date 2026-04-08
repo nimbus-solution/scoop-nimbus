@@ -1,19 +1,19 @@
 {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nimbus-solution/nimbus-releases/releases/download/v0.1.2/nimbus_0.1.2_windows_amd64.zip",
+            "url": "https://github.com/Oblitus/nimbus/releases/download/v0.1.3/nimbus_0.1.3_windows_amd64.zip",
             "bin": [
                 "nimbus.exe"
             ],
-            "hash": "0e2a60102979cd30613bcb08479b2e38189f8fec4cde78cac91b300ef04a8ab5"
+            "hash": "a205d21a11f41555aeb39d33106869a90087cbabb20580c6e085c743a0609310"
         },
         "arm64": {
-            "url": "https://github.com/nimbus-solution/nimbus-releases/releases/download/v0.1.2/nimbus_0.1.2_windows_arm64.zip",
+            "url": "https://github.com/Oblitus/nimbus/releases/download/v0.1.3/nimbus_0.1.3_windows_arm64.zip",
             "bin": [
                 "nimbus.exe"
             ],
-            "hash": "cdee5274400594164c61f3890c6854843c68d065ceb4cbbffc47850c7dd51777"
+            "hash": "03ec76820dc02f3872af64ba026674f4121fe5f2d293cade513d55ff91ba66e4"
         }
     },
     "homepage": "https://testnimbus.dev",
