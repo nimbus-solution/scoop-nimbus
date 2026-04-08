@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Oblitus/nimbus/releases/download/v0.1.0/nimbus_0.1.0_windows_amd64.zip",
+            "bin": [
+                "nimbus.exe"
+            ],
+            "hash": "aedbc60ec84386ae9137d489e3e343e885e13affac3cb18f5cd41812d04dc5f7"
+        },
+        "arm64": {
+            "url": "https://github.com/Oblitus/nimbus/releases/download/v0.1.0/nimbus_0.1.0_windows_arm64.zip",
+            "bin": [
+                "nimbus.exe"
+            ],
+            "hash": "c0ce86ed2ab91d183d6997afab2f01acfcaf1c309b4400a6b809e3dc9551b431"
+        }
+    },
+    "homepage": "https://testnimbus.dev",
+    "license": "MIT",
+    "description": "Local Apex test runner for Salesforce developers"
+}
