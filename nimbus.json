@@ -2,14 +2,14 @@
     "version": "0.1.11",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Oblitus/nimbus/releases/download/v0.1.11/nimbus_0.1.11_windows_amd64.zip",
+            "url": "https://github.com/nimbus-solution/nimbus-releases/releases/download/v0.1.11/nimbus_0.1.11_windows_amd64.zip",
             "bin": [
                 "nimbus.exe"
             ],
             "hash": "8be0b2a20989447c16a617882d9f2623164570db37eeb028e15d6f2e7927ad1a"
         },
         "arm64": {
-            "url": "https://github.com/Oblitus/nimbus/releases/download/v0.1.11/nimbus_0.1.11_windows_arm64.zip",
+            "url": "https://github.com/nimbus-solution/nimbus-releases/releases/download/v0.1.11/nimbus_0.1.11_windows_arm64.zip",
             "bin": [
                 "nimbus.exe"
             ],
