@@ -1,6 +1,6 @@
 # scoop-nimbus
 
-Official Scoop bucket for **[Nimbus](https://testnimbus.dev)** — run Salesforce Apex tests locally, without an org.
+Official Scoop bucket for **[Renmy](https://renmy.net)** (formerly Nimbus) — run Salesforce Apex tests locally, without an org.
 
 ---
 
@@ -10,12 +10,12 @@ Running Apex tests requires a connected Salesforce org. That means waiting for s
 
 Meanwhile, every other language just runs tests locally.
 
-## What Nimbus does
+## What Renmy does
 
-Nimbus runs your Apex tests on your machine — no Salesforce connection, no Docker, no setup beyond pointing it at your SFDX project.
+Renmy runs your Apex tests on your machine — no Salesforce connection, no Docker, no setup beyond pointing it at your SFDX project.
 
 ```
-❯ nimbus test "*"
+❯ renmy test "*"
 
   ✓  AccountServiceTest.testCreateAccount     12ms
   ✓  AccountServiceTest.testBulkInsert         8ms
@@ -50,22 +50,24 @@ Real SOQL. Real triggers. Real DML. Backed by an embedded PostgreSQL database �
 ## Install
 
 ```powershell
-scoop bucket add nimbus https://github.com/nimbus-solution/scoop-nimbus
-scoop install nimbus
+scoop bucket add renmy https://github.com/renmy-solutions/scoop-nimbus
+scoop install renmy
 ```
+
+The bucket keeps the repository name `scoop-nimbus` and publishes two manifests from every release: `renmy`, which installs `renmy.exe`, and `nimbus`, which installs `nimbus.exe`. Both are the same release. An existing install of `nimbus` keeps updating with `scoop update nimbus`.
 
 ## Upgrade
 
 ```powershell
-scoop update nimbus
+scoop update renmy
 ```
 
 ## Verify
 
 ```powershell
-nimbus --version
+renmy --version
 ```
 
 ---
 
-[Documentation](https://testnimbus.dev/docs) · [Website](https://testnimbus.dev) · [Releases](https://github.com/nimbus-solution/nimbus-releases)
+[Documentation](https://renmy.net/docs) · [Website](https://renmy.net) · [Releases](https://github.com/renmy-solutions/renmy/releases)
