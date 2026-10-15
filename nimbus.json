@@ -1,22 +1,22 @@
 {
-    "version": "1.49.2",
+    "version": "1.50.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nimbus-solution/nimbus/releases/download/v1.49.2/nimbus_1.49.2_windows_amd64.zip",
+            "url": "https://github.com/renmy-solutions/renmy/releases/download/v1.50.0/nimbus_1.50.0_windows_amd64.zip",
             "bin": [
                 "nimbus.exe"
             ],
-            "hash": "d6b764cd961e2909e4a2facd0a2ca06020734215621e1378ce764ad28a392baa"
+            "hash": "0f50b74374af60a75b150242f2658c7f9e54c16644840e18f720c170e4a028f7"
         },
         "arm64": {
-            "url": "https://github.com/nimbus-solution/nimbus/releases/download/v1.49.2/nimbus_1.49.2_windows_arm64.zip",
+            "url": "https://github.com/renmy-solutions/renmy/releases/download/v1.50.0/nimbus_1.50.0_windows_arm64.zip",
             "bin": [
                 "nimbus.exe"
             ],
-            "hash": "72b6f541286bf35d9528c2b1b8e6a0d19f357e6d035b14642e732ee4f66e28e9"
+            "hash": "72d0c3c3d74c7772d566f5f6e398d4134954a2c68e97ace9bae38d9dac7767d3"
         }
     },
-    "homepage": "https://testnimbus.dev",
+    "homepage": "https://renmy.net",
     "license": "MIT",
     "description": "Local Apex test runner for Salesforce developers"
 }
